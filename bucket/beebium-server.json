@@ -1,23 +1,56 @@
 {
-  "version": "0.21.0",
-  "description": "Headless BBC Micro emulator servers: Model B, B+, B+ 128K, and Model B with the ROM/RAM, ATPL Sidewise, Watford ROM/RAM and Integra-B boards",
+  "version": "0.22.1",
+  "description": "Headless BBC Micro emulator servers: Model B, B+, B+ 128K, Model B with the ROM/RAM, ATPL Sidewise, Watford ROM/RAM and Integra-B boards, and the Master 128",
   "homepage": "https://github.com/rob-smallshire/beebium",
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/rob-smallshire/beebium/releases/download/v0.21.0/beebium-server-0.21.0-windows-x64.zip",
-      "hash": "9681cc2a5f71a961a23b943dc8fb11975ac1bd32024d3d0d024e4f69515b5447"
+      "url": "https://github.com/rob-smallshire/beebium/releases/download/v0.22.1/beebium-server-0.22.1-windows-x64.zip",
+      "hash": "354463ad93fa1b8d11c2a2b883ca991e826653598ebb697d84947477d1481748"
     }
   },
   "bin": [
-    "bin\\beebium-model-b.exe",
-    "bin\\beebium-model-b-plus.exe",
-    "bin\\beebium-model-b-plus-128k.exe",
-    "bin\\beebium-model-b-romram.exe",
-    "bin\\beebium-model-b-atpl-sidewise.exe",
-    "bin\\beebium-model-b-watford-rom-ram.exe",
-    "bin\\beebium-model-b-integra-b.exe",
-    "bin\\beebium-master-128.exe"
+    "bin\\beebium-server.exe",
+    [
+      "bin\\beebium-server.exe",
+      "beebium-model-b",
+      "model-b"
+    ],
+    [
+      "bin\\beebium-server.exe",
+      "beebium-model-b-plus",
+      "model-b-plus"
+    ],
+    [
+      "bin\\beebium-server.exe",
+      "beebium-model-b-plus-128k",
+      "model-b-plus-128k"
+    ],
+    [
+      "bin\\beebium-server.exe",
+      "beebium-model-b-romram",
+      "model-b-romram"
+    ],
+    [
+      "bin\\beebium-server.exe",
+      "beebium-model-b-atpl-sidewise",
+      "model-b-atpl-sidewise"
+    ],
+    [
+      "bin\\beebium-server.exe",
+      "beebium-model-b-watford-rom-ram",
+      "model-b-watford-rom-ram"
+    ],
+    [
+      "bin\\beebium-server.exe",
+      "beebium-model-b-integra-b",
+      "model-b-integra-b"
+    ],
+    [
+      "bin\\beebium-server.exe",
+      "beebium-master-128",
+      "master-128"
+    ]
   ],
   "checkver": "github",
   "autoupdate": {
