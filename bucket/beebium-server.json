@@ -1,12 +1,12 @@
 {
-  "version": "0.22.1",
+  "version": "0.22.2",
   "description": "Headless BBC Micro emulator servers: Model B, B+, B+ 128K, Model B with the ROM/RAM, ATPL Sidewise, Watford ROM/RAM and Integra-B boards, and the Master 128",
   "homepage": "https://github.com/rob-smallshire/beebium",
   "license": "GPL-3.0-or-later",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/rob-smallshire/beebium/releases/download/v0.22.1/beebium-server-0.22.1-windows-x64.zip",
-      "hash": "354463ad93fa1b8d11c2a2b883ca991e826653598ebb697d84947477d1481748"
+      "url": "https://github.com/rob-smallshire/beebium/releases/download/v0.22.2/beebium-server-0.22.2-windows-x64.zip",
+      "hash": "530d26433c806f986d855cfec8172f6aee2625d2780cc2eb229d33e712a0ba9f"
     }
   },
   "bin": [
